@@ -1,0 +1,9 @@
+%h1 Listing Recipes
+- @recipes.each do |recipe|
+  %h2= link_to recipe.title, recipe
+
+
+
+
+
+= link_to 'New Recipe', new_recipe_path
